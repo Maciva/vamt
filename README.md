@@ -1,6 +1,6 @@
 # Visual Automatic Music Transcription (VAMT)
 ![Result](resources/images/result.png)
-
+[Demonstration](https://youtu.be/Oyk2DgLeJFQ)
 Transcription of a piano piece based on [Akbaris work](https://ieeexplore.ieee.org/document/7225173), further extended with additional improvements, namely:
 - Shadow handling through thresholding, avoiding preprocessing for shadow removal, and increasing stability.
 - Removal of the continuous area assumption for pressed keys, addressing issues caused by hands and occlusion. Classification now relies on the ratio of delta pixels.
